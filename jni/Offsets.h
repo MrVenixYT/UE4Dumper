@@ -164,10 +164,10 @@ namespace Offsets {
 
     void patchCustom_32() {
         if (isPUBGLite()) {//GName Fix(0.22)
-            PGLEncSelect = 0x4EEDD74;
-            PGLBlockSlice1 = 0x4F6DE98;
-            PGLBlockShift = 0x4F6DE89;
-            PGLBlockSlice2 = 0x4F6DEB0;
+            PGLEncSelect = 0x4EEEC74;
+            PGLBlockSlice1 = 0x4F6ED98;
+            PGLBlockShift = 0x4F6ED89;
+            PGLBlockSlice2 = 0x4F6EDB0;
         }
         if (isGameOfPeace()) {
             //Class: FNameEntry

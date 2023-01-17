@@ -163,11 +163,11 @@ namespace Offsets {
     }
 
     void patchCustom_32() {
-        if (isPUBGLite()) {//GName Fix(0.22)
-            PGLEncSelect = 0x4EEDD74;
-            PGLBlockSlice1 = 0x4F6DE98;
-            PGLBlockShift = 0x4F6DE89;
-            PGLBlockSlice2 = 0x4F6DEB0;
+        if (isPUBGLite()) {//GName Fix(0.24)
+            PGLEncSelect = 0x4EE9374;
+            PGLBlockSlice1 = 0x4F69498;
+            PGLBlockShift = 0x4F69489;
+            PGLBlockSlice2 = 0x4F694B0;
         }
         if (isGameOfPeace()) {
             //Class: FNameEntry
@@ -266,11 +266,11 @@ namespace Offsets {
             ULevelToAActors = 0xA0;
             ULevelToAActorsCount = 0xA8;
         }
-        if (isPUBGLite()) {//GName Fix(0.23)
-            PGLEncSelect = 0x6F39BA4;
-            PGLBlockSlice1 = 0x6F39F10;
-            PGLBlockShift = 0x6F39EF1;
-            PGLBlockSlice2 = 0x6F39F40;
+        if (isPUBGLite()) {//GName Fix(0.24)
+            PGLEncSelect = 0x6F22224;
+            PGLBlockSlice1 = 0x6F22590;
+            PGLBlockShift = 0x6F22270;
+            PGLBlockSlice2 = 0x6F225C0;
         }
         if (isGameOfPeace()) {
             //Class: FNameEntry
